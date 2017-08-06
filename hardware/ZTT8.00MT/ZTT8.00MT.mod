@@ -1,0 +1,46 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+ZTT8.00MT
+$EndINDEX
+$MODULE ZTT8.00MT
+Po 0 0 0 15 00000000 00000000 ~~
+Li ZTT8.00MT
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0 0 1 0.9 0 0.05 N H 21 "ZTT8.00MT"
+T1 0 0 1 0.9 0 0.05 N H 21 "VAL**"
+DS -1.5 -1.5 6.5 -1.5 0.127 21
+DS 6.5 -1.5 6.5 1.5 0.127 21
+DS 6.5 1.5 -1.5 1.5 0.127 21
+DS -1.5 1.5 -1.5 -1.5 0.127 21
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 5 0
+$EndPAD
+$EndMODULE ZTT8.00MT
